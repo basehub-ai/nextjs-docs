@@ -1,5 +1,7 @@
 'use client'
 
+import { VercelToolbar } from '@vercel/toolbar/next'
+
 export const DraftModeHeader = () => {
   return (
     <div>
@@ -15,6 +17,7 @@ export const DraftModeHeader = () => {
         Exit
       </button>
       .
+      <VercelToolbar />
     </div>
   )
 }
